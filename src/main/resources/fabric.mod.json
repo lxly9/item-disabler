@@ -3,13 +3,13 @@
 	"id": "item_disabler",
 	"version": "${version}",
 	"name": "Item Disabler",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Disable unwanted Items with a tag",
 	"authors": [
-		"Me!"
+		"gayasslily"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/item-disbler",
+		"sources": "https://github.com/lxly9/item-disabler"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/item_disabler/icon.png",
