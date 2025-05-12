@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "item_disabler",
+	"version": "${version}",
+	"name": "Item Disabler",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/item_disabler/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.item_disabler.ItemDisabler"
+		],
+		"client": [
+			"com.item_disabler.ItemDisablerClient"
+		],
+		"fabric-datagen": [
+			"com.item_disabler.ItemDisablerDataGenerator"
+		]
+	},
+	"mixins": [
+		"item_disabler.mixins.json",
+		{
+			"config": "item_disabler.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
